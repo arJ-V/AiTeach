@@ -1,0 +1,41 @@
+.feedback-page {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3f51b5;
+}
+
+.feedback-card {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.feedback-card h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.feedback-card p {
+    margin-bottom: 5px;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
