@@ -1,24 +1,20 @@
-// src/App.jsx
-
 import React from 'react';
-import AppRoutes from './routes/AppRoutes';
+import AppRoutes from './routes/AppRoutes'; // Ensure the path is correct
 import { QuizProvider } from './context/QuizContext';
 import { FeedbackProvider } from './context/FeedbackContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import './styles/globals.css';
 
 const App = () => {
     return (
         <QuizProvider>
             <FeedbackProvider>
-                <div className="app">
-                    <Header />
-                    <main className="main-content">
-                        <AppRoutes />
-                    </main>
-                    <Footer />
-                </div>
+                <Header />
+                <main style={{ padding: '20px', textAlign: 'center' }}>
+                    <h1>Welcome to AI Practice Test Generator</h1>
+                    <AppRoutes />
+                </main>
+                <Footer />
             </FeedbackProvider>
         </QuizProvider>
     );
